@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.header1 {
+    background-color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+    max-height: 90px;
+
+}
+
+.barra-pesquisa {
+    flex-grow: 1;
+    margin: 0 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-width: 300px;
+    display: flex;
+    align-items: center;
+    padding: 6px;
+}
+
+.barra-pesquisa input {
+    width: 100%;
+    padding: 6px;
+    border: none;
+    font-size: 16px;
+}
+
+.bottoes {
+    display: flex;
+    align-items: center;
+}
+
+.botao {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.botao img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.botao span {
+    font-size: 16px;
+}
+
+
+.header2 {
+    background-color: #335577;
+    padding: 20px 0;
+}
+
+.header2-conteudo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header2-esquerdo {
+    display: flex;
+    align-items: center;
+}
+
+.header2-esquerdo img {
+    max-width: 70px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.header2-esquerdo span {
+    font-size: 16px;
+    color: #fff;
+}
+
+.pessoas {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    gap: 20px; 
+}
+
+.pessoas {
+    display: flex;
+    align-items: center;
+}
+
+.pessoa {
+    text-align: center;
+    margin: 0 15px; 
+}
+
+.pessoa img {
+    width: 70px; 
+    height: 70px;
+    border-radius: 50%; 
+    object-fit: cover; 
+}
+
+.pessoa span {
+    display: block;
+    font-size: 14px;
+    margin-top: 5px;
+    color: white;
+}
+
+.main-conteudo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.main-caixa1 {
+    flex-basis: calc(50% - 10px); 
+    border: 1px solid #000;
+    background-color: #fff;
+    padding: 40px;
+    text-align: center;
+    max-width: 600px;
+}
+
+.botoes-caixa1 {
+    margin-top: 20px;
+}
+
+.botao-caixa1 {
+    background-color: yellow;
+    color: #000;
+    border: 1px solid #000;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 25px; 
+    text-decoration: none; 
+}
+
+.conteiner-caixa2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    margin-top: 20px; 
+}
+
+
+.foto1 {
+    width: 350px;
+    height: 350px;
+}
+
+.carrosel-caixa2 {
+    flex-basis: calc(50% - 10px); 
+    
+    background-color: #fff;
+    padding: 20px;
+    margin-left: 20px; 
+}
+
+
+@media (min-width: 768px) {
+    
+    .main-conteudo {
+        padding: 40px;
+    }
+
+    .main-caixa1 {
+        flex-basis: calc(50% - 20px); 
+    }
+
+    .carrosel-caixa2 {
+        flex-basis: calc(50% - 20px); 
+    }
+}
+

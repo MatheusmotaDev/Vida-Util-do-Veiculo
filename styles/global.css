@@ -140,7 +140,7 @@ text-align: center;
 .vuv-destaque .slide .content h3{
   font-size: 3rem;
   line-height: 1.3;
-  color: white;
+  color: rgb(67, 22, 125);
   padding: 2rem 0;
   animation: sliderauto 1s ease forwards;
 }
@@ -151,7 +151,7 @@ text-align: center;
 
 .vuv-destaque .slide .content .btn{
   background-color:rgb(84, 71, 71) ;
-  color: white;
+  color: rgb(78, 8, 140);
 }
 
 .vuv-destaque .slide .content .btn:hover{

@@ -15,3 +15,9 @@ var swiper = new Swiper('.home-slider', {
 
 })
 
+
+let login = document.querySelector ('.login-form');
+
+document.querySelector('#login').onclick = () => {
+    login.classList.toggle('active');
+}

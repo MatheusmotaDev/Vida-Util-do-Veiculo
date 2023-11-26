@@ -37,8 +37,8 @@ body {
 }
 
 .vuv {
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
 }
 
 .corrigir {
@@ -61,7 +61,7 @@ body {
 }
 
 .btn:hover {
-  background: red;
+  background: rgb(13, 13, 183);
   color: white;
 }
 
@@ -118,6 +118,64 @@ body {
 
 
 
+
+
+
+.topo-site .login-form {
+  position: absolute;
+  top: 100%;
+  right: -105%; 
+  background: white;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  border-radius: .5rem;
+  width: 30rem;
+  padding: 1rem;
+}
+
+.topo-site .login-form.active {
+  right: 2rem;
+  transition: 4s linear;
+}
+
+.topo-site .login-form h3 {
+  font-size: 2.2rem;
+  color: #130f40;
+  text-transform: uppercase;
+  margin-bottom: 7rem;
+  text-align: center;
+  
+}
+
+.topo-site .login-form .box{
+margin: .7rem 0;
+padding: 1rem 1.2rem;
+border: 1px solid rgba(0, 0, 0, 0.1);
+width: 100%;
+text-transform: none;
+color: #130f40;
+}
+
+.topo-site .login-form .lembrar-senha{
+display: flex;
+align-items: center;
+gap: .5rem;
+margin: .7rem 0;
+}
+
+.topo-site .login-form .lembrar-senha label{
+font-size: 1.5rem;
+color: #777;
+cursor: pointer;
+}
+
+.topo-site .login-form .btn{
+width: 100%;
+text-align: center;
+margin: 1rem 0;
+}
+
+
+
 .vuv-destaque{
   padding: 0;
 }
@@ -140,7 +198,7 @@ text-align: center;
 .vuv-destaque .slide .content h3{
   font-size: 3rem;
   line-height: 1.3;
-  color: rgb(67, 22, 125);
+  color: black;
   padding: 2rem 0;
   animation: sliderauto 1s ease forwards;
 }
@@ -150,13 +208,13 @@ text-align: center;
 }
 
 .vuv-destaque .slide .content .btn{
-  background-color:rgb(84, 71, 71) ;
-  color: rgb(78, 8, 140);
+  background-color: var(--cor-5);
+  color: white;
 }
 
 .vuv-destaque .slide .content .btn:hover{
   background-color: rgb(40, 33, 139);
-  color: #130f40;
+  color: #d6dd10;
   border: none;
   animation: sliderReveal 1s ease forwards;
 }
@@ -166,7 +224,7 @@ display: inline-block;
 }
 
 .vuv-destaque .swiper-slide-active{
-  animation: sushiScale 4s linear forwards;
+  animation: vuvScale 4s linear forwards;
 }
 
 @keyframes slidersauto{
@@ -264,7 +322,7 @@ display: inline-block;
     margin: 1rem 2.5rem;
   }
 
-  .shari-destaque .slide .content h3{
+  .vuv-destaque .slide .content h3{
     font-size: 3rem;
   }
 
@@ -283,7 +341,7 @@ display: inline-block;
     font-size: 50%;
   }
 
-  .shari-destaque .slide .content h3{
+  .vuv-destaque .slide .content h3{
     font-size: 3.5rem;
   }
 

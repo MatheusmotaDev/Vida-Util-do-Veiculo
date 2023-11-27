@@ -1,0 +1,68 @@
+body, html {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    margin: 0;
+    text-align: center;
+    padding: 0;
+    background-color: #002960;
+}
+
+.centralizar {
+    max-width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.logo {
+    height: 20%;
+    margin-left: 22%;
+}
+
+.formulario {
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 600px; 
+    margin: 0 auto; 
+    background-color: #7b96d4;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.nome {
+    color: #d9d9d9;
+}
+
+.area {
+    width: 100%;
+    max-width: 400px; 
+    margin: 0 auto;
+    border-radius: 20px;
+    height: 40px;
+    box-sizing: border-box;
+    padding: 0 10px;
+    border: none;
+}
+
+.botao {
+    margin-top: 20px; 
+    width: 100%;
+    max-width: 400px; 
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: #002960;
+    text-decoration: none;
+    color: #d9d9d9;
+    margin-bottom: 20px;
+}
+
+
+@media screen and (min-width: 601px) {
+    .formulario {
+        max-width: 80%; 
+    }
+}

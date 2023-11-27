@@ -383,6 +383,122 @@ section {
 
 
 
+.atualizacoes .box-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 4rem;
+}
+
+.atualizacoes .box-container .box{
+  text-align: center;
+  padding: 1.5rem;
+  border-radius: .5rem;
+  box-shadow: 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.atualizacoes .box-container .box img{
+  width: 100%;
+  height: 15rem;
+  border-radius: .5rem;
+  object-fit: cover;
+}
+
+
+.atualizacoes .box-container .box .icons{
+  display: inline-block;
+  top: -2rem;
+  background: var(--cor-5);
+  padding: 1rem;
+  border-radius: .5rem;
+  position: relative;
+}
+
+.atualizacoes .box-container .box .icons a{
+  color: white;
+  font-size: 1.4rem;
+  margin: 0 1rem;
+}
+
+
+.atualizacoes .box-container .box .icons a:hover{
+  color: var(--cor-3);
+}
+
+.atualizacoes .box-container .box .icons a i{
+  color: white;
+  padding-right: .5rem;
+}
+
+.atualizacoes .box-container .box h3{
+  font-size: 2rem;
+  color: #130f40;
+}
+
+.atualizacoes .box-container .box p{
+  color: #777;
+  font-size: 1.4rem;
+  padding: 1rem 0;
+  line-height: 2;
+
+}
+
+.footer{
+  background-color: var(--cor-5);
+  text-align: center;
+}
+
+.footer .box-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 2rem;
+}
+
+.footer .box-container .box h3{
+  font-size: 2.2rem;
+  text-transform: capitalize;
+  color: white;
+  padding: 1rem 0;
+}
+
+
+.footer .box-container .box p{
+  font-size: 1.5rem;
+  color: white;
+  padding: 1rem 0;
+  line-height: 2;
+}
+
+.footer .box-container .box .rede-sociais{
+  margin-top:1rem ;
+
+}
+
+.footer .box-container .box .rede-sociais a{
+  color: white;
+  border-radius: 10%;
+  border: .1px solid white;
+  height: 4.5rem;
+  width: 4.5rem;
+  text-align: center;
+  line-height: 4.5rem;
+  font-size: 1.8rem;
+  margin-right: .3rem;
+}
+
+.footer .box-container .box .rede-sociais a:hover{
+  background-color: var(--cor-3);
+  color: var(--cor-1);
+}
+
+.direitos{
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+  margin-top: 3rem;
+  padding-top: 3rem;
+  text-transform: capitalize;
+}
+
 
 
 
